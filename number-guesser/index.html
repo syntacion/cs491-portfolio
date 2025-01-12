@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guesser</title>
+</head>
+<body>
+  <div>
+    <h1>Number Guesser</h1>
+    <p>Guess the number between 1 and 100!</p>
+  </div>
+
+  <hr>
+
+  <div>
+    <label for="guessInput">Enter your guess:</label>
+    <input type="number" id="guessInput" min="1" max="100" />
+    <button id="guessButton">Guess</button>
+  </div>
+
+  <hr>
+
+  <div>
+    <button id="recommendButton">Recommend Guess</button>
+  </div>
+
+  <hr>
+
+  <div id="feedback"></div>
+  <div>
+    <p>Attempts: <span id="attempts">0</span></p>
+  </div>
+
+  <script src="src/main.js"></script>
+</body>
+</html>
